@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 50px;
+    background-color: mediumseagreen;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing:2px;
+}
+
+.menu {
+    margin: 3px 10px;
+    width:auto;
+    background-color:black;
+    padding:4px;
+    overflow:hidden;
+    position: relative;
+    border-radius: 4px;
+}
+
+.menu > div {
+    width:25px;
+    height:4px;
+    margin:3px;
+    background-color:#fff;
+    border-radius: 4px;
+}
+
+.content {
+    display: flex;
+    background-color:#eee;
+    height:91.5vh;
+    padding-top:2px;
+}
+
+.sidebar {
+    border-top-right-radius: 4px;
+    overflow:hidden;
+    background-color:#aaa;
+    transition:0.4s;
+}
+
+.sidebar ul {
+    background-color:black;
+    color:white;
+    font-size: 16px;
+}
+
+.sidebar ul li {
+    padding:15px 40px;
+    white-space: nowrap;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-weight: bold;
+    letter-spacing:2px;
+}
+
+.sidebar ul li:hover {
+    background-color:mediumseagreen;
+    color:black;
+}
+
+.main-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing:2px;
+}
+
+.open {
+    width: 240px;
+}
+
+.close {
+    width: 0px;
+}
+
+
+
